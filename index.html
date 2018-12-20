@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Jungle</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+	
+.junglegif {
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+}
+
+.animals {
+    position: relative;
+    text-align: center;
+	
+}
+
+.acentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.animals:hover .animal{
+  opacity:.5;
+   filter:blur(5px);
+    transition: opacity 2s, visibility 2s;
+}
+ 
+.aimg_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FFFFFF;
+  visibility: hidden;
+  opacity: 0;
+font-size: 50px;
+Text-align:left;
+ 
+  /* transition effect. not necessary */
+  transition: opacity 2s, visibility 2s;
+}
+
+.animals:hover .aimg_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.temp {
+    position: relative;
+    text-align: center;
+}
+
+.bcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.timg_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FFFFFF;
+  visibility: hidden;
+  opacity: 0;
+font-size: 50px;
+Text-align:left;
+ 
+  /* transition effect. not necessary */
+  transition: opacity 2s, visibility 2s;
+}
+ 
+.temp:hover .timg_description {
+  visibility: visible;
+  opacity: 1;
+}
+.temp:hover .temps{
+  opacity:.5;
+   filter:blur(5px);
+    transition: opacity 2s, visibility 2s;
+}
+.plants {
+    position: relative;
+    text-align: center;
+}
+
+.ccentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pimg_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FFFFFF;
+  visibility: hidden;
+  opacity: 0;
+font-size: 50px;
+Text-align:left;
+ 
+  /* transition effect. not necessary */
+  transition: opacity 2s, visibility 2s;
+}
+ .plants:hover .plant{
+  opacity:.5;
+   filter:blur(5px);
+    transition: opacity 2s, visibility 2s;
+}
+
+.plants:hover .pimg_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+</style>
+<section>	
+<link href="excss.css" rel="stylesheet" type="text/css">
+<div class="header" align="up">
+  <h1></h1>
+</div>
+
+<div class="topnav" id="1">
+  <a href="index.html#animals">Animals</a>
+  <a href="index.html#temp">Temperature and Climate</a>
+  <a href="index.html#plants">Plants</a>
+</div>
+	
+	<div class="junglegif"> 
+	<img src="http://i.imgur.com/lS2oDmh.gif" align="center" width="1580" style="width:100%;" height="750">
+	<div class="centered"> <font color="#FFFFFF">THE JUNGLE BIOME</font>
+	</div>
+	</div>
+	
+	</section>
+
+</head>
+<section style="background-color:#000;">
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<center>
+<h2 style="background-color:#000;"><font color="#f9f9f9" size="80">Everything about the jungle<font></h2>
+</center>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+</section>
+<section style="background-color:#000;">
+<body>
+
+<div class="animals" id='animals'>
+<div class="animal">
+<img src="http://2.bp.blogspot.com/-oUbEb5ELvxc/UF3naACj8eI/AAAAAAAAANE/mn5qmXiH2I4/s1600/Cockscomb+Basin.jpg">
+<div class="acentered">Animals</div>
+</div>
+
+<ul class="aimg_description" style="list-style: none;">
+	<li>Text</li>
+	<li>Text</li>
+	<li>Text</li>
+</ul>
+</div>
+
+
+<div class="temp" id='temp'>
+<div class="temps">
+<img src="https://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7odkrFJckdiFeHvab0GWOfzhj7tYdC0uglagsDQnbs2F4kNCWNgbtpe_FvETEyVAEUe9Eg3hQwAk1CATBba_QB1cXidmTU9U34uuQGir7n7_f3qHkNXZUiWJG24W4pZ795rBl2vAJhpJxCeWofRhEZvJFUVAeHkaa6fFtvxuR11TwbVCHhM0TQN9WEjcaNb61Kysjt98332HiHxCyg/" width="1580">	
+<div class="bcentered">Temperature and Climate</div>
+</div>
+<ul class="timg_description" style="list-style: none;">
+	<li>Text</li>
+	<li>Text</li>
+	<li>Text</li>
+</ul>
+</div>
+
+<div class="plants" id='plants'>
+<div class="plant">
+<img src="http://ak3.picdn.net/shutterstock/videos/3778106/thumb/1.jpg" width="1580">
+<div class="ccentered">Plants</div>
+</div>
+<ul class="pimg_description" style="list-style: none;">
+	<li>Text</li>
+	<li>Text</li>
+	<li>Text</li>
+</ul>
+</div>
+</section>
+<script>
+function newWindow(url) {
+	popupWindow = window.open(
+		url,
+		'popUpWindow',
+		"height=500,width=450,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes")
+}
+newWindow('survey.html');
+</script>
+
+
